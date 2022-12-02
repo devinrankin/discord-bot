@@ -10,7 +10,7 @@ async def send_message(message, user_message):
 
 def run_bot():
     print(discord.__version__)
-    TOKEN = 'MTA0ODE5NzcwMzI4MjIxNjk3MA.GFqxx-.vdzM2Op4Oq32Jo7RoguDmrCXFlTBDCh2z8sA90'
+    TOKEN = 'TOKEN'
     intents = discord.Intents.default()
     client = discord.Client(intents=intents)
 
